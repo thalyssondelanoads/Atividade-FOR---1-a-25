@@ -1,4 +1,4 @@
-print('Progressão Geométrica\n------------')
+print('Progressão Aritmética\n------------')
 a0 = int(input('Digite o início da Progressão: '))
 r = int(input('Digite a Razão Da Progressão: '))
 limite = int(input('Digite o Termo Limite da Progressão: '))
