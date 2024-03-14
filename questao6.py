@@ -10,6 +10,5 @@ if 1 <= num <= 10:
         result = num * tabuada
         print(f'{num} x {tabuada} = {result}')
     print('__________________')
-
 else:
     print('-------------------\nApenas Números de 1 a 10 Serão Mostrados')
