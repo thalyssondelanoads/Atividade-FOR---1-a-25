@@ -2,7 +2,6 @@ def main():
   print('Tabuada de 1 a 10\n-----------------')
   numero = int(input('Qual Tabuada Deseja Ver?: '))
   
-  
   if 1 <= numero <= 10:
       tabuada = 0
       print('__________________')
