@@ -1,4 +1,4 @@
-def calcular_soma(n):
+def calcular_e_mostrar_soma(n):
   soma = 0
   for x in range(1,n+1):
     soma += 1/x
@@ -12,7 +12,7 @@ def main():
   n = int(input('Digite o Número de Somas que Deseja : '))
 
   print('-'*30)
-  soma = calcular_soma(n)
+  soma = calcular_e_mostrar_soma(n)
 
   print(f'{soma:.3f}')
 
