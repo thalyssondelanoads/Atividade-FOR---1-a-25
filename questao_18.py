@@ -4,6 +4,7 @@ def calcular_e_mostrar_soma(n):
   for numerador in range(1, n + 1):
     soma += numerador / denominador                  #FUNÇÃO QUE INCREMENTA OU DECREMENTA OS NÚMEROS DAS FRAÇÕES
     print(f'{numerador}/{denominador}',end='')       #REALIZA O CÁLCULO DAS MESMAS LOGO EM SEGUIDA
+    #VERIFICA SE É O ÚLTIMO RESULTADO E ADICIONA ' = '
     print(' + ' if numerador < n else ' = ' , end='')
     denominador -= 1
 
