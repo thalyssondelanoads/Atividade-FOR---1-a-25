@@ -2,8 +2,8 @@ def calcular_e_mostrar_soma(n):
   soma = 0
   denominador = n
   for numerador in range(1, n + 1):
-    soma += numerador / denominador
-    print(f'{numerador}/{denominador}',end='')
+    soma += numerador / denominador                  #FUNÇÃO QUE INCREMENTA OU DECREMENTA OS NÚMEROS DAS FRAÇÕES
+    print(f'{numerador}/{denominador}',end='')       #REALIZA O CÁLCULO DAS MESMAS LOGO EM SEGUIDA
     print(' + ' if numerador < n else ' = ' , end='')
     denominador -= 1
 
