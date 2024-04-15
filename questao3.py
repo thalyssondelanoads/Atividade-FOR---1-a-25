@@ -4,7 +4,7 @@ def main():
   r = int(input('Digite a Razão Da Progressão: '))
   limite = int(input('Digite o Termo Limite da Progressão: '))
   
-  for x in range(a0,limite+1, r):
+  for x in range (a0,limite+1, r):
       print(x)
 
 main()
