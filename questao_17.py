@@ -1,9 +1,9 @@
 def calcular_e_mostrar_soma(n):
   soma = 0
-  for x in range(1,n+1):
-    soma += 1/x
-    print(f'1/{x}',end='')
-    print(' + ' if x < n else ' = ' , end='')
+  for denominador in range(1,n+1):
+    soma += 1/denominador
+    print(f'1/{denominador}',end='')
+    print(' + ' if denominador < n else ' = ' , end='')
   
   return soma
 
