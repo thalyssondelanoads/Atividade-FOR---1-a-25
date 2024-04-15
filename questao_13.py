@@ -1,6 +1,5 @@
 def main():
     print('Maior Número da Lista\n-----------------------')
-
     n = int(input('Quantos Números Deseja Digitar : '))
 
     for x in range (1,n+1):
