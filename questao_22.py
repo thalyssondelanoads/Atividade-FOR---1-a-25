@@ -29,7 +29,7 @@ def main():
   
 Peso do Boi Mais Pesado : {boi_mais_pesado}
 Nº de Identificação : {id_mais_pesado}
-_____________________________________           #MOSTRA OS RESULTADOS NA TELA
+_____________________________________
 Peso do Boi Mais Leve : {boi_mais_leve}
 Nº de Identificação : {id_mais_leve}''')
 
