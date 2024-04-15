@@ -9,8 +9,7 @@ def main():
     print(f'-------------------\nInformações do Boi {qtd_bois}: \n-------------------')
     n_identificaçao = int(input('Digite o Nº de Identificação do Boi : '))
     peso = float(input('Digite o Peso do Boi : '))
-
-    #VERIFICA SE O PRÓXIMO VALOR DO LOOP É MAIOR OU MENOR QUE O ANTERIOR
+    
     if x == 1:
       boi_mais_pesado = peso
       boi_mais_leve = peso
