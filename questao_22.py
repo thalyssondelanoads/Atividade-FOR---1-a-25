@@ -3,10 +3,9 @@ def main():
   n = int(input('Digite Quantos Bois Deseja Cadastrar : '))
 
   boi_mais_pesado = boi_mais_leve = 0
-  qtd_bois = 0
   for x in range (1,n+1):
-    qtd_bois += 1
-    print(f'-------------------\nInformações do Boi {qtd_bois}: \n-------------------')
+    print(f'-------------------\nInformações do Boi {x}: \n-------------------')
+    nome = str(input('Digite o Nome do Boi : '))
     n_identificaçao = int(input('Digite o Nº de Identificação do Boi : '))
     peso = float(input('Digite o Peso do Boi : '))
     
