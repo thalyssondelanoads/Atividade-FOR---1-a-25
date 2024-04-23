@@ -1,8 +1,0 @@
-{
-	"BuildId": "27405482",
-	"Modules": 
-	{
-		"AndroidDeviceDetection": "UnrealInsights-AndroidDeviceDetection.dll",
-		"AndroidTargetPlatform": "UnrealInsights-AndroidTargetPlatform.dll"
-	}
-}
