@@ -1,12 +1,12 @@
 def main():
   print("Progressão Geométrica\n-------------------")
-  A0 = int(input("Valor inicial : "))
-  Limite = int(input("Insira o Limite : "))
-  R = int(input("Razão : "))
+  a0 = int(input("Valor inicial : "))
+  limite = int(input("Insira o Limite : "))
+  r = int(input("Razão : "))
   
-  atual = A0
-  while atual < Limite:
+  atual = a0
+  while atual < limite:
       print(atual)
-      atual *= R
+      atual *= r
 
 main()
